@@ -4,9 +4,11 @@ import { AppComponent } from './app.component';
 import { FotoModule } from './foto/foto.module';
 import { HttpModule } from '@angular/http';
 import 'rxjs/add/operator/map';
+import { PainelComponent } from './painel/painel.component';
+import { PainelModule } from './painel/painel.module';
 
 @NgModule({
-    imports: [BrowserModule, FotoModule, HttpModule],
+    imports: [BrowserModule, FotoModule, HttpModule, PainelModule],
     declarations: [AppComponent],
     bootstrap: [AppComponent]
 })
