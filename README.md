@@ -5,7 +5,7 @@
 Você precisará ter o *[Node.js](https://nodejs.org)* instalado.
 
 ### Backend
-Caso seja a primeira execução, você precisará instalar os módulos *NPM*. Para isso, execute o comando abaixo na pasta **cliet**.
+Caso seja a primeira execução, você precisará instalar os módulos *NPM*. Para isso, execute o comando abaixo na pasta **server**.
 
 ```shell
 npm install
@@ -19,7 +19,7 @@ npm start
 
 ### Frontend
 
-Caso seja a primeira execução, você precisará instalar os módulos *NPM*. Para isso, execute o comando abaixo na pasta **cliet**.
+Caso seja a primeira execução, você precisará instalar os módulos *NPM*. Para isso, execute o comando abaixo na pasta **client**.
 
 ```shell
 npm install
