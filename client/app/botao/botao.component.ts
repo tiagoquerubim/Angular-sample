@@ -21,6 +21,7 @@ export class BotaoComponent {
             if (confirm('Tem certeza?')) {
                 this.acao.emit(null);
             }
+            
             return;
         }
         this.acao.emit(null);
